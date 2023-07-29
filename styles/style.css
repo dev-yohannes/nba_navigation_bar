@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+body header ul {
+  background-color: #051c2d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: all 0.1s;
+}
+body header ul:hover {
+  color: gray;
+}
+body header ul li {
+  font-size: 62.5%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  min-height: 50px;
+  padding: 0px 20px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+body header ul li:hover {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
